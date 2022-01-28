@@ -1,0 +1,63 @@
+.header{
+    background-color: white;
+    text-align: center;
+      padding: 4px 0;
+      border-bottom: 1px solid #e0e0e0;
+}
+.PostCard{
+    border-bottom: 1px solid #e0e0e0;
+    background-color: white;
+    margin: 8px;
+}
+.PostCardOwnerInfo{
+    padding: 8px;
+    display: flex;
+}
+.PostCardOwnerInfoAvatar{
+border-radius: 100%;
+height: 48px;
+width: 48px;
+}
+.PostCardOwnerInfoName{
+    flex: 1;
+    margin: 4px;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+.postCardContentImage{
+    display: block;
+    width: 100%;
+}
+.postDescription{
+    padding: 8px;
+    direction: rtl;
+    text-align: right;
+}
+.postCardActions{
+    font-size: 1.4em;
+    margin: 8px;
+
+}
+.postCardActions span{
+    margin: 4px;
+    padding: 2px;
+}
+.postCardLastComment{
+    padding: 8px;
+}
+.postCardSendInstantComment{
+    display: flex;
+    padding: 8px;
+}
+.postCardSendInstantComment input{
+flex: 1;
+border: 0;
+outline: 0;
+}
+.postCardSendInstantComment button{
+    background-color: white;
+    outline: 0;
+    border: 0;
+    color: #1e88e5;
+    font-weight: bold;
+}
